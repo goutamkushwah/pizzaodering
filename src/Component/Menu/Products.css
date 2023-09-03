@@ -1,0 +1,59 @@
+.products-section{
+    max-width: 1200px;
+    width: 90vw;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.products-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products-header h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.products-filter{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.active{
+    /* padding: 1px 2px;
+    color: #fff;
+    background: #ff4555; */
+    padding-bottom: 4px;
+    color: #ff4555;
+    border-bottom: 3px solid #ff4555 ;
+}
+
+.products-filter li{
+    font-size: 18px;
+    color: #767676;
+    cursor: pointer;
+}
+
+
+
+
+.products-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+
+    gap: 20px;
+}
+
+
+
+/* .................................PRODUCT CARD DESIGN................................ */
+

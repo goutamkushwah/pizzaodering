@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cart-section{
+    padding-top: 150px ;
+    padding-bottom: 100px;
+    max-width: 1200px;
+    width: 90vw;
+    margin: auto;
+}
+
+.empty-cart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.empty-cart-left h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.empty-cart-left p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #767676;
+}
+
+.empty-cart-left button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff4555;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+.empty-cart img{
+    width: 40%;
+}
+
+/* ............................................ */
+
+.cart-data{
+    max-width: 800px;
+    width: 70%;
+    margin: auto;
+    /* background: cyan; */
+}
+
+.cart-display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.name-image {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.name-veg h3{
+    margin-bottom: 10px;
+}
+
+.name-image img{
+    width: 100px;
+    height: 70px;
+}
+
+.addons-cart{
+    text-align: center;
+}
+
+.size-cart{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.toppings-cart{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.incri, .decri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background: #ff4555;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+
+.incri-decri{
+    text-align: center;
+}
+.total, .order-button{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.total > span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.order-button button{
+    padding: 10px 20px;
+    background: #ff4555;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.price-cart span{
+    font-weight: 700;
+    color: #767676;
+    margin-left: 5px;
+}
